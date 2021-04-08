@@ -1,6 +1,6 @@
-# ACMEGitHubExample
+# ACMEGitHubExample - An example FHIR specification managed in GitHub
 [![FHIR Project on Simplifier.net](https://img.shields.io/badge/FHIR_project_on_Simplifier.net-ACMEGitHubExample-green)](https://simplifier.net/ACMEGitHubExample) [![Firely Validation)](https://github.com/FirelyTeam/ACMEGitHubExample/actions/workflows/main.yml/badge.svg)](https://github.com/FirelyTeam/ACMEGitHubExample/actions/workflows/main.yml)
 
-An example of  a FHIR Specification managed in GitHub with Simplifier.net
-
-The main branch of this repository automatically synchronizes with this Simplifier.net project on every commit: https://github.com/FirelyTeam/ACMEGitHubExample
+An example of a FHIR Specification managed in GitHub with [Simplifier.net](http://simplifier.net) and [Firely Terminal](https://fire.ly/products/firely-terminal/):
+* The `main` branch of this repository automatically synchronizes with this Simplifier.net project on every commit: https://github.com/FirelyTeam/ACMEGitHubExample. Learn more about [Simplifier.net GitHub synchronization](https://docs.fire.ly/projects/Simplifier/simplifierGithub.html).
+* Any push or pull request to the `main` branch will automatically run the [Firely Validation pipeline](https://github.com/FirelyTeam/firely-terminal-pipeline), containing [bulk validation and custom business rule validation](https://fire.ly/2021/03/04/quality-control-how-to-validate-full-fhir-specifications-in-one-click/) with Firely Terminal.
