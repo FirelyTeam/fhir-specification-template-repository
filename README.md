@@ -1,6 +1,6 @@
 # FHIR Specification template repository
 
-[![FHIR Project on Simplifier.net](https://img.shields.io/badge/FHIR_project_on_Simplifier.net-ACMEFSHExample-green)](https://simplifier.net/ACMEFSHExample) [![Firely Validation)](https://github.com/FirelyTeam/ACMEFSHExample/actions/workflows/main.yml/badge.svg)](https://github.com/FirelyTeam/ACMEFSHExample/actions/workflows/main.yml)
+[![FHIR Project on Simplifier.net](https://img.shields.io/badge/FHIR_project_on_Simplifier.net-ACMEGitHubExample-green)](https://simplifier.net/ACMEGitHubExample) [![Firely Validation)](https://github.com/FirelyTeam/fhir-specification-template-repository/actions/workflows/main.yml/badge.svg)](https://github.com/FirelyTeam/fhir-specification-template-repository/actions/workflows/main.yml)
 
 A template repository for the management of your FHIR specification in GitHub.com.
 
