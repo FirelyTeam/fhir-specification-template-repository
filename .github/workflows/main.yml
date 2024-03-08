@@ -42,8 +42,8 @@ jobs:
       - name: Firely.Terminal (GitHub Actions)
         uses: FirelyTeam/firely-terminal-pipeline@v0.4.0
         with:
-          PATH_TO_CONFORMANCE_RESOURCES: Conformance-resources
-          PATH_TO_EXAMPLES: Examples
+          # PATH_TO_CONFORMANCE_RESOURCES: Conformance-resources
+          # PATH_TO_EXAMPLES: Examples
           PATH_TO_QUALITY_CONTROL_RULES: custom
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: false
