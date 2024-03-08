@@ -59,7 +59,7 @@
     </element>
     <element id="Patient.name">
       <path value="Patient.name" />
-      <max value="2" />
+      <max value="1" />
     </element>
     <element id="Patient.photo">
       <path value="Patient.photo" />
