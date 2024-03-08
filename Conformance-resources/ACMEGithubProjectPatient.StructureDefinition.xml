@@ -41,9 +41,25 @@
   <baseDefinition value="https://fake-acme.org/fhir/StructureDefinition/ACME-base-patient" />
   <derivation value="constraint" />
   <differential>
+    <element id="Patient.extension:race">
+      <path value="Patient.extension" />
+      <sliceName value="race" />
+    </element>
+    <element id="Patient.extension:race.extension">
+      <path value="Patient.extension.extension" />
+      <min value="1" />
+    </element>
+    <element id="Patient.extension:ethnicity">
+      <path value="Patient.extension" />
+      <sliceName value="ethnicity" />
+    </element>
+    <element id="Patient.extension:ethnicity.extension">
+      <path value="Patient.extension.extension" />
+      <min value="1" />
+    </element>
     <element id="Patient.name">
       <path value="Patient.name" />
-      <max value="1" />
+      <max value="2" />
     </element>
     <element id="Patient.photo">
       <path value="Patient.photo" />
