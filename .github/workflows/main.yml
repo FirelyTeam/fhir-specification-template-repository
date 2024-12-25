@@ -40,7 +40,7 @@ jobs:
           java-version: '21'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.4.7-alpha10
+        uses: FirelyTeam/firely-terminal-pipeline@v0.4.7-alpha11
         with:
           PATH_TO_CONFORMANCE_RESOURCES: "Conformance resources"
           PATH_TO_EXAMPLES: Examples
