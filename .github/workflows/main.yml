@@ -30,7 +30,7 @@ jobs:
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 8.0.x
       
       # Install Java runtime (only needed if you want to run the offical HL7 Java validator)
       - name: Setup Java JDK
@@ -40,7 +40,7 @@ jobs:
           java-version: '21'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.4.7-alpha6
+        uses: FirelyTeam/firely-terminal-pipeline@v0.4.7-alpha7
         with:
           PATH_TO_CONFORMANCE_RESOURCES: "Conformance resources"
           PATH_TO_EXAMPLES: Examples
