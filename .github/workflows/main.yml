@@ -25,6 +25,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Test Script with ANSI Colors
+        run: |
+          RED='\033[0;31m'
+          NC='\033[0m'
+          input="[2, 38] Patient: Error - Additional info."
+          output="${input/: Error/: ${RED}Error${NC} -}"
+          echo -e "$output"
         
       # Install .NET runtime
       - name: Setup .NET Core SDK
